@@ -9,9 +9,8 @@ Package.onUse(function (api) {
     api.versionsFrom("2.16");
 
     api.use([
-        //"meteor-base",
         "underscore",
-        "carlosalvidrez:pagination"
+        "carlosalvidrez:pagination@0.0.1"
     ]);
 
     api.use([
@@ -20,12 +19,13 @@ Package.onUse(function (api) {
     ], "client");
 
     api.use([
-        "templating",
-        "blaze"
+        "templating@1.4.4-alpha300.17",
+        "blaze@3.0.0-rc300.2"
     ], "client");
 
     api.addFiles([
         "client/template.html",
         "client/template.js"
     ], "client");
+
 });
