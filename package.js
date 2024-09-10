@@ -1,7 +1,7 @@
 Package.describe({
     "name": "carlosalvidrez:pagination-blaze",
     "summary": "Blaze paginator Bootstrap 5 template for carlosalvidrez:pagination package",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "git": "https://github.com/carlosalvidrez/pagination-blaze.git"
 });
 
@@ -10,7 +10,7 @@ Package.onUse(function (api) {
 
     api.use([
         "underscore",
-        "carlosalvidrez:pagination@0.0.1"
+        "carlosalvidrez:pagination@0.0.2"
     ]);
 
     api.use([
